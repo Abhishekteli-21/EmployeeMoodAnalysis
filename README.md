@@ -1,7 +1,7 @@
 
 Step 1: Clone the Repository
 Open a command prompt (or PowerShell) and navigate to a directory where you want to set up the project:
-cd C:\Users\Projects  # Replace with your desired directory
+cd C:\Users\Projects  <- Replace with your desired directory
 git clone https://github.com/Abhishekteli-21/EmployeeMoodAnalysis.git
 cd EmployeeMoodAnalysis
 
