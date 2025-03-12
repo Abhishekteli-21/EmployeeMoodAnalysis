@@ -1,0 +1,28 @@
+app:
+  title: "Employee Mood Analysis Dashboard"
+  refresh_interval: 5
+
+database:
+  uri: "mongodb://localhost:27017"
+  db_name: "mood_database"
+  collection: "mood_data"
+
+emotion_detection:
+  video_model: "DeepFace"
+  video_duration: 30  # Default video analysis duration in seconds
+  text_model: "distilbert-base-uncased-emotion"
+  speech_timeout: 10
+  speech_threshold: 200
+  stress_threshold: 0.7
+  alert_duration: 3
+
+privacy:
+  anonymization_key: "secret_key_2025"
+  salt_timestamp: true
+
+notifications:
+  smtp_server: "smtp.gmail.com"
+  smtp_port: 587
+  sender_email: "your-email@gmail.com"  # Replace with your Gmail
+  sender_password: "your-app-password"  # Replace with App Password
+  hr_email: "hr@example.com"            # Replace with HR email
